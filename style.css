@@ -886,7 +886,9 @@ label {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: 
+    linear-gradient(rgba(194, 121, 86, 0.2), rgb(70, 43, 30, 0.9)),
+    url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
