@@ -888,7 +888,7 @@ label {
 .bg-presentation {
     background-image: 
     linear-gradient(rgba(194, 121, 86, 0.2), rgb(70, 43, 30, 0.9)),
-    url("img/imageDePresentation.jpg");
+    url("C:/Users/presl/Desktop/LaPanthereSEO/img/imageDePresentation.jpg");
 }
 
 @media (max-width: 1024px) {
