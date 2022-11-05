@@ -72,11 +72,6 @@ dfn {
     font-style: italic
 }
 
-h1 {
-    margin: .67em 0;
-    font-size: 2em
-}
-
 mark {
     color: #000;
     background: #ff0
@@ -1423,7 +1418,7 @@ a:focus {
 }
 
 figure {
-    margin: 0
+    margin: 0 20vw 0 20vw;
 }
 
 img {
@@ -1593,7 +1588,7 @@ h6 small {
 
 .h1,
 h1 {
-    font-size: 36px
+    font-size: 45px
 }
 
 .h2,
@@ -1635,6 +1630,9 @@ p {
 @media (min-width:768px) {
     .lead {
         font-size: 21px
+    }
+    .figure {
+        margin: 0;
     }
 }
 
@@ -3156,10 +3154,10 @@ output {
 }
 
 .form-control:focus {
-    border-color: #66afe9;
+    border-color: #f3976c;
     outline: 0;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
-    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6)
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(243, 151, 108, .6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(243, 151, 108, .6);
 }
 
 .form-control::-moz-placeholder {
