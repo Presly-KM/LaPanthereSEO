@@ -779,6 +779,10 @@ label {
     margin: auto auto auto auto;
 }
 
+.hidden-text-link {
+    visibility: hidden;
+}
+
 .cta-hero {
     margin-top: 22px;
     color: #FFFFFF!important;
